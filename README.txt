@@ -2,6 +2,8 @@ ID: W2117569 Name: Max Arnon Fairchild
 
 To run the application it requires to download Apache-tomcat and unzip the file In addition to use the Postman API you will need to download the postman agent, i was unable to attach the helper so instead i have attached a link
 
+Once all the resources are downloaded and the application is opened set the server to Apache Tomcat and NOT glassfish
+
 Question Part 1.1: In this program/app the object is instantiated with every request, this can be changed to use the same object by using the @Singleton annotation, Per-request is thread safe for each variable however it creates alarger overhead.
 
 Part 1.2: The approach of hypermedia links is great for developers as it means that if a url changes it does not break the structure of a program, with static links such as ones used in my app if the url is changed slightly it can disrupot the whole program
